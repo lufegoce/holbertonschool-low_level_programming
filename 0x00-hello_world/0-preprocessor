@@ -1,1 +1,1 @@
-E -o c
+gcc -E $CFILE -o c
