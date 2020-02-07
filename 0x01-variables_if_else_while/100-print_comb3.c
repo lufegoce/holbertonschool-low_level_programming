@@ -9,7 +9,7 @@ int c;
 int j;
 for (c = 48; c <= 57; c++)
 {
-	for (j = c+1; j <= 57; j++)
+	for (j = c + 1; j <= 57; j++)
 	{
 		putchar(c);
 		putchar(j);
