@@ -25,5 +25,4 @@ for (c = '0'; c <= '7'; c++)
 }
 putchar('\n');
 return (0);
-
 }
