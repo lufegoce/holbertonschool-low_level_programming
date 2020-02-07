@@ -18,8 +18,10 @@ for (c = '0'; c <= '7'; c++)
 		putchar(j);
 		putchar(i);
 		if (c != '7' || j != '8' || i != '9')
+		{
 		putchar(44);
 		putchar(32);
+}
 }
 }
 }
