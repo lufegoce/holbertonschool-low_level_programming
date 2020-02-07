@@ -18,7 +18,7 @@ for (c = 48; c <= 57; ++c)
 		if (c == 57 && j == 57)
 		{
 			break;
-                }
+}
 		putchar(44);
 		putchar(32);
 }
