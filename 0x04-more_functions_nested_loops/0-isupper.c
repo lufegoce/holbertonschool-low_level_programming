@@ -7,13 +7,13 @@
 int _isupper(int c)
 {
 int result;
-	if (c >= 'a' && c <= 'z')
-	{
-	result = 0;
-	}
-	else if (c >= 'A' && c <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
 	result = 1;
+	}
+	else
+	{
+	result = 0;
 	}
 	return (result);
 }
