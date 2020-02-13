@@ -8,13 +8,13 @@ int _isdigit(int c)
 {
 int result;
 
-	if (c >= 'a' && c <= 'z')
-	{
-	result = 0;
-	}
-	else if (c >= '0' && c <= '9')
+	if (c >= '0' && c <= '9')
 	{
 	result = 1;
+	}
+	else
+	{
+	result = 0;
 	}
 	return (result);
 }
