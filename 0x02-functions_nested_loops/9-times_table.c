@@ -5,9 +5,8 @@
 */
 void times_table(void)
 {
-
 	int f, c, mult;
-	
+
 	for (f = 0; f <= 9; f++)
 	{
 		_putchar ('0');
@@ -21,13 +20,13 @@ void times_table(void)
 			_putchar (' ');
 			_putchar (mult + '0');
 			}
-			else 
+			else
 			{
 			_putchar (',');
 			_putchar (' ');
 			_putchar (mult / 10 + '0');
 			_putchar (mult % 10 + '0');
-			} 
+			}
 		}
 		_putchar ('\n');
 	}
